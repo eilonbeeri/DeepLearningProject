@@ -1,2 +1,2 @@
 # Deepfake Detection using Vision Transformers (ViT)
-A full pipeline for detecting AI-generated faces using FaceForensics++ dataset. Includes data preprocessing, ViT training with Intel GPU optimizations, evaluation, calibration, and robustness analysis.
+Trained on FaceForensics++, this project applies preprocessing and data augmentation to extract face crops, then trains a Vision Transformer with adaptive optimization, mixed precision, early stopping, and EMA. Achieves high accuracy and robust deepfake detection on test videos.
