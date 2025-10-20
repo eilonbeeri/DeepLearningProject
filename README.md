@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project implements a binary classification model to detect real vs. manipulated (fake) face images extracted from the FaceForensics++ dataset.  
+This project implements a binary classification model to detect real vs. manipulated (fake) face images extracted from the FaceForensics++ dataset (https://github.com/ondyari/FaceForensics).  
 Faces were cropped using MTCNN from sampled frames of real and tampered videos.  
 The final detection model is based on Vision Transformer (ViT-Base/16) with Layer-wise Learning Rate Decay, Mixup, EMA weights, Test-Time Augmentation (TTA), and Temperature Scaling.
 
